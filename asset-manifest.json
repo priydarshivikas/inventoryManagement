@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/inventoryManagement/static/css/main.43bb1e3a.css",
+    "main.js": "/inventoryManagement/static/js/main.c54677a8.js",
+    "static/js/787.ec704a7a.chunk.js": "/inventoryManagement/static/js/787.ec704a7a.chunk.js",
+    "static/media/discount.png": "/inventoryManagement/static/media/discount.e1e0153297650c8d280d.png",
+    "static/media/revenue.png": "/inventoryManagement/static/media/revenue.7d4369ffd3f76f83bab2.png",
+    "static/media/return.png": "/inventoryManagement/static/media/return.025900a600910dd90798.png",
+    "static/media/cost.png": "/inventoryManagement/static/media/cost.fe7d894d0c888348a089.png",
+    "static/media/profit.png": "/inventoryManagement/static/media/profit.73496450e59732be24b0.png",
+    "static/media/agreement.png": "/inventoryManagement/static/media/agreement.f19d1b1b2fcf3914aee8.png",
+    "static/media/shopping.png": "/inventoryManagement/static/media/shopping.ef4af30ba007c78f4203.png",
+    "static/media/invoice.png": "/inventoryManagement/static/media/invoice.8db39acbec9568aa2313.png",
+    "static/media/bill.png": "/inventoryManagement/static/media/bill.fa607033a8f14f849341.png",
+    "static/media/customer.png": "/inventoryManagement/static/media/customer.38a822d9b4a9a51ded3b.png",
+    "static/media/sales.png": "/inventoryManagement/static/media/sales.269414f45b9a9a85ac9f.png",
+    "static/media/received.png": "/inventoryManagement/static/media/received.383d5fbfaeed38850c66.png",
+    "index.html": "/inventoryManagement/index.html",
+    "main.43bb1e3a.css.map": "/inventoryManagement/static/css/main.43bb1e3a.css.map",
+    "main.c54677a8.js.map": "/inventoryManagement/static/js/main.c54677a8.js.map",
+    "787.ec704a7a.chunk.js.map": "/inventoryManagement/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43bb1e3a.css",
+    "static/js/main.c54677a8.js"
+  ]
+}
