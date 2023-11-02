@@ -79,7 +79,7 @@ function App() {
             }
           />
           <Route
-            path="/inventory"
+            path="/inventoryManagement"
             element={
               <Wrapper>
                 <MyInventory />
