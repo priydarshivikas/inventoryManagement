@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstName": "Mohit",
+      "lastName": "kumar",
+      "email": "eve.holt@reqres.in",
+      "phone": "6306451634s",
+      "address": "Raniganj kaithola",
+      "id": 17
+    },
+    {
+      "firstName": "Shubham ",
+      "lastName": "Singh",
+      "email": "shubhamsingh123@gmail.com",
+      "phone": "7232348974",
+      "address": "Noida sector-15",
+      "id": 20
+    },
+    {
+      "firstName": "Geet",
+      "lastName": "Jindal",
+      "email": "eve.holt@reqres.in",
+      "phone": "9134389489",
+      "address": "New delhi",
+      "id": 21
+    }
+  ]
+}

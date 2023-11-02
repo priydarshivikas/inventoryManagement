@@ -1,0 +1,16 @@
+.content-wrapper {
+  background: #f7f8fa;
+  width: 85vw;
+  height: 80vw;
+  position: sticky;
+  margin-top: 70px;
+  float: right;
+  grid-area: 20px;
+  overflow: hidden;
+}
+@media(max-width:550px){
+  .content-wrapper{
+    height: 100%;
+    /* margin-top: 75px; */
+  }
+}

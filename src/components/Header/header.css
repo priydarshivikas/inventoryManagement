@@ -1,0 +1,128 @@
+.header-container {
+  display: flex;
+  background-color: #ffff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid rgb(34, 123, 7, 0.1);
+  z-index: 1;
+}
+.header-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 85%;
+  height: 80px;
+}
+.search-container {
+  width: 360px;
+  height: 80px;
+}
+.company-logo {
+  height: auto;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+}
+.company-logo a {
+  color: #384751;
+}
+.companylogo {
+  width: 45px;
+  margin-top: 12px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.company-logo h1 {
+  font-weight: 800 ;
+  font-size: 1.5rem;
+  text-decoration: none;
+  position: relative;
+  left: 62px;
+  bottom: 61px;
+}
+.input-grey-rounded {
+  font-size: 16px;
+  line-height: 1.5;
+  background: #f6f7f9;
+  border: 1px solid #d5d9db;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 21px 12px;
+  background-size: 17px 20px;
+  border-radius: 100px;
+  width: 300px;
+  padding: 0.5em 1em 0.5em 3em;
+}
+
+.input-grey-rounded::placeholder {
+  color: #838d99;
+}
+
+.input-grey-rounded:focus {
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #84a2fa;
+}
+.header-container-wrapper input {
+  height: 27px;
+  width: 20vw;
+  border-radius: 35px;
+  margin: 20px;
+}
+
+@media (max-width: 550px) {
+  .search-container {
+    visibility: hidden;
+    display: none;
+  }
+  .profileIcon {
+    visibility: hidden;
+  }
+  .header-container-wrapper input {
+    height: 27px;
+    width: 0px;
+    border-radius: 35px;
+    margin: 20px;
+  }
+  .header-container-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 85%;
+    height: 80px;
+  }
+}@media (max-width: 768px) {
+  .company-logo h1 {
+    font-size: 1rem;
+    left: 9px;
+    bottom: 25px;
+  }
+  .companylogo {
+    width: 35px;
+    margin-top: 12px;
+    margin-left: 25px;
+    padding: 9px;
+  }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .company-logo h1 {
+    font-size: 1rem; /* Further adjust the font size for even smaller screens */
+    left: 10px; /* Further adjust the left position for even smaller screens */
+    bottom: 10px; /* Further adjust the bottom position for even smaller screens */
+  }
+  .companylogo {
+    width: 30px;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+}
+
+
+
+
+
+

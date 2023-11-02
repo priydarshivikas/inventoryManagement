@@ -1,0 +1,10 @@
+.errorpage{
+    background-color: rgb(236, 240, 242);
+    height: 87vh;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
