@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/inventorymanagement/static/css/main.43bb1e3a.css",
-    "main.js": "/inventorymanagement/static/js/main.bb7af8b6.js",
-    "static/js/787.ec704a7a.chunk.js": "/inventorymanagement/static/js/787.ec704a7a.chunk.js",
+    "main.css": "/inventorymanagement/static/css/main.9d37b9e1.css",
+    "main.js": "/inventorymanagement/static/js/main.e96557dd.js",
+    "static/js/453.bea66239.chunk.js": "/inventorymanagement/static/js/453.bea66239.chunk.js",
     "static/media/discount.png": "/inventorymanagement/static/media/discount.e1e0153297650c8d280d.png",
     "static/media/revenue.png": "/inventorymanagement/static/media/revenue.7d4369ffd3f76f83bab2.png",
     "static/media/return.png": "/inventorymanagement/static/media/return.025900a600910dd90798.png",
@@ -16,12 +16,12 @@
     "static/media/sales.png": "/inventorymanagement/static/media/sales.269414f45b9a9a85ac9f.png",
     "static/media/received.png": "/inventorymanagement/static/media/received.383d5fbfaeed38850c66.png",
     "index.html": "/inventorymanagement/index.html",
-    "main.43bb1e3a.css.map": "/inventorymanagement/static/css/main.43bb1e3a.css.map",
-    "main.bb7af8b6.js.map": "/inventorymanagement/static/js/main.bb7af8b6.js.map",
-    "787.ec704a7a.chunk.js.map": "/inventorymanagement/static/js/787.ec704a7a.chunk.js.map"
+    "main.9d37b9e1.css.map": "/inventorymanagement/static/css/main.9d37b9e1.css.map",
+    "main.e96557dd.js.map": "/inventorymanagement/static/js/main.e96557dd.js.map",
+    "453.bea66239.chunk.js.map": "/inventorymanagement/static/js/453.bea66239.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43bb1e3a.css",
-    "static/js/main.bb7af8b6.js"
+    "static/css/main.9d37b9e1.css",
+    "static/js/main.e96557dd.js"
   ]
 }
