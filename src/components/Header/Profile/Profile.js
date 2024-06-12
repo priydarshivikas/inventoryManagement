@@ -1,11 +1,11 @@
-import React, { useContext, useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MailIcon from "@mui/icons-material/Mail";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
-import { Link, useNavigate } from "react-router-dom";
-import AuthContext from "../../Contexts/AuthContexts";
+import { Link } from "react-router-dom";
+// import AuthContext from "../../Contexts/AuthContexts";
 import "./Profile.css";
 
 function useClickOutside(ref, handler) {
@@ -22,8 +22,8 @@ function useClickOutside(ref, handler) {
   }, [ref, handler]);
 }
 function Profile() {
-  const { userInfo } = useContext(AuthContext);
-  const navigate = useNavigate();
+  // const { userInfo } = useContext(AuthContext);
+  // const navigate = useNavigate();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -35,11 +35,11 @@ function Profile() {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const navigateToLogin = () => {
-    localStorage.removeItem("token");
-    console.log(userInfo);
-    navigate("/");
-  };
+  // const navigateToLogin = () => {
+  //   localStorage.removeItem("token");
+  //   console.log(userInfo);
+  //   navigate("/");
+  // };
 
   return (
     <div className="profile-container">
@@ -81,7 +81,8 @@ function Profile() {
             </Link>
           </li>
           <li>
-            <Link to="/login" onClick={navigateToLogin}>
+            {/* <Link to="/login" onClick={navigateToLogin}> */}
+            <Link >
               Logout
               <LogoutIcon className="userIcon" />
             </Link>
